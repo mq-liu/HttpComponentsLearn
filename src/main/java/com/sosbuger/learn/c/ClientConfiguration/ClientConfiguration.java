@@ -55,6 +55,9 @@ import java.util.Arrays;
  * PoolingHttpClientConnectionManager
  * MessageConstraints
  * RequestConfig
+ * SocketConfig
+ * Registry
+ * CookieStore
  *
  */
 public class ClientConfiguration {
