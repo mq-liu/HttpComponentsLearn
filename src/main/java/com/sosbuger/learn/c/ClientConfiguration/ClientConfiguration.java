@@ -53,7 +53,6 @@ import java.util.Arrays;
  * SSLConnectionSocketFactory
  * SystemDefaultDnsResolver
  * PoolingHttpClientConnectionManager
- * PoolingHttpClientConnectionManager
  * MessageConstraints
  * RequestConfig
  *
