@@ -1,6 +1,7 @@
 package com.sosbuger.learn.o.ProxyTunnelDemo;
 
 import com.sosbuger.custom.Custom;
+import org.apache.http.Consts;
 import org.apache.http.HttpException;
 import org.apache.http.HttpHost;
 import org.apache.http.auth.UsernamePasswordCredentials;
@@ -29,7 +30,7 @@ public class ProxyTunnelDemo {
         out.write("\r\n");
         out.flush();
         BufferedReader in = new BufferedReader(
-                new InputStreamReader(socket.getInputStream(), HTTP.DEF_CONTENT_CHARSET));
+                new InputStreamReader(socket.getInputStream(), Consts.UTF_8));
         String line = null;
         while ((line = in.readLine()) != null) {
             System.out.println(line);
